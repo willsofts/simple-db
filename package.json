@@ -1,0 +1,38 @@
+{
+  "name": "simple-db",
+  "version": "1.0.0",
+  "description": "Simple Database Handler",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./",
+    "kn:service": "node dist/kn.service.js",
+    "kn:handler": "node dist/kn.handler.js",
+    "kn:action": "node dist/kn.action.js",
+    "kn:model": "node dist/kn.model.js",
+    "kn:crud": "node dist/kn.crud.js",
+    "kn:paging": "node dist/kn.paging.js",
+    "kn:disable": "node dist/kn.disable.js",
+    "kn:param": "node dist/kn.param.js",
+    "kn:gateway": "node dist/kn.gateway.js",
+    "kn:route": "node dist/kn.route.js",
+    "kn:api": "node dist/kn.api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tassun_oro@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@willsofts/will-api": "^1.0.13",
+    "@willsofts/will-db": "^1.0.52",
+    "@willsofts/will-sql": "^1.0.31",
+    "moleculer": "^0.14.34",
+    "moleculer-web": "^0.10.7",
+    "mysql2": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}

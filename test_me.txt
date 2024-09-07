@@ -1,0 +1,12 @@
+Test List
+1. kn.service   - basic usage KnService
+2. kn.handler   - custom handler and action with base handler
+3. kn.action    - dynamic action with base engine
+4. kn.model     - using model predefined structure
+5. kn.crud      - CRUD example
+6. kn.paging    - simple pagination
+7. kn.disable   - disable query paging
+8. kn.param     - manual assign parameters
+9. kn.gateway   - using web api gateway
+10. kn.route    - custom api routing
+11. kn.api      - using KnAPI
