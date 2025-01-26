@@ -16,6 +16,7 @@
     "kn:gateway": "node dist/kn.gateway.js",
     "kn:route": "node dist/kn.route.js",
     "kn:api": "node dist/kn.api.js",
+    "kn:page": "node dist/kn.page.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,8 +24,9 @@
   "license": "ISC",
   "dependencies": {
     "@willsofts/will-api": "^1.0.13",
-    "@willsofts/will-db": "^1.0.52",
+    "@willsofts/will-db": "^1.0.58",
     "@willsofts/will-sql": "^1.0.31",
+    "@willsofts/will-util": "^1.0.23",
     "moleculer": "^0.14.34",
     "moleculer-web": "^0.10.7",
     "mysql2": "^3.9.3"

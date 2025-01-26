@@ -40,3 +40,4 @@ This project require configuration ([config](https://www.npmjs.com/package/confi
 - kn.gateway   - using web api gateway
 - kn.route    - custom api routing
 - kn.api      - using KnAPI
+- kn.page       - make it own pagination from data set
